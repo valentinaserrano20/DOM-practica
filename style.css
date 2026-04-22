@@ -6,13 +6,22 @@ body{
 .contenedor{
     display: flex;
     width: 700px;
-    border: #000 1px solid;
+    border: lightcoral 1px solid;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
     border-radius: 12px;
+    background-color: lightpink;
+}
+#msg{
+    box-shadow: 2px 2px 2px 1px lightcoral;
+    border-radius: 8px;
+}
+
+#msg:focus{
+    outline: none;
 }
 .titulo{
     text-align: center;
@@ -28,5 +37,19 @@ form{
     padding: 10px;
     margin: 0 auto;
     width: 60%;
-    border-radius: 8px;
+    border-radius: 12px;
+    corner-shape: bevel;
+    font-weight: bold;
+    background-color: lightblue;
+    color: white;
+    border: 1px solid lightskyblue;
+    font-size: 16px;
 }   
+
+.tarjeta{
+    background-color: lightblue;
+    border-radius: 8px;
+    corner-shape: bevel;
+    margin-bottom: 20px;
+    padding: 10px;
+}

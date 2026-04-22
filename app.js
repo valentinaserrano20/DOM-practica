@@ -9,6 +9,7 @@ boton.addEventListener("click", (e) =>{
     const msg = mensaje.value.trim();
     if(msg){
         const nuevoMensaje = document.createElement("p");
+        nuevoMensaje.classList.add("tarjeta")
         nuevoMensaje.textContent = msg;
         mostrarMensaje.append(nuevoMensaje)
     }
